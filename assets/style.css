@@ -32,7 +32,6 @@ p {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    /* padding: .5rem 1rem; */
 }
 
 .navbar-logo {
@@ -56,12 +55,8 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.02em;
-
-  /* padding: .5rem 1rem; */
   padding-left: 30px;
   padding-right: 30px;
   display: block!important;
@@ -74,7 +69,6 @@ p {
 
 .btn-navbar {
     display: inline-block;
-    /* font-weight: 400; */
     color: #fff;
     text-align: center;
     vertical-align: middle;
@@ -84,17 +78,11 @@ p {
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    /* padding: .375rem .75rem; */
     padding: 18px 48.5px;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 40px;
     background-color: #3DB5E2;
-    /* border-top-color: rgb(40, 167, 69);
-    border-right-color: rgb(40, 167, 69);
-    border-bottom-color: rgb(40, 167, 69);
-    border-left-color: rgb(40, 167, 69); */
-    /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
     transition: .20s;
 }
 
@@ -111,7 +99,6 @@ p {
 }
 
 /* banner */
-
 #banner {
   background-image: url(img/bg-vector.png);
   width: 100%;
@@ -149,7 +136,6 @@ p {
 #banner .banner-btn .banner-btn-item {
   display: inline-block;
   width: 202px;
-  /* height: 53px; */
   font-weight: bold;
   font-size: 18px;
   text-align: center;
@@ -172,10 +158,7 @@ p {
 font-weight: bold;
 font-size: 18px;
 line-height: 21px;
-/* identical to box height */
-
 letter-spacing: 0.02em;
-
 }
 
 #banner .banner-btn .banner-btn-white {
@@ -209,8 +192,6 @@ letter-spacing: 0.02em;
 #banner .banner-img img {
     float: right;
     width: 400px;
-    /* height: 362px; */
-    /* width: 68.3%; */
 }
 
 /* content */
@@ -223,10 +204,7 @@ letter-spacing: 0.02em;
   font-weight: bold;
   font-size: 40px;
   line-height: 47px;
-  /* identical to box height */
-
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
@@ -235,12 +213,12 @@ letter-spacing: 0.02em;
 }
 
 #content .content-cards .card-size {
-    height: 300px;
-    width: 232px;
-    margin-right: 56.82px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    transition: 0.5s;
+  height: 300px;
+  width: 232px;
+  margin-right: 56.82px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  transition: 0.5s;
 }
 
 #content .content-cards .card-size:hover {
@@ -249,8 +227,8 @@ letter-spacing: 0.02em;
 }
 
 #content .content-cards .card {
-    height: 300px;
-    width: 232px;
+  height: 300px;
+  width: 232px;
 }
 
 
@@ -262,16 +240,10 @@ letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
-#content .content-cards .card-main-body {
-
-}
-
 #content .content-cards .card-main-body .card-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  /* identical to box height */
-  /* text-align: center; */
   letter-spacing: 0.02em;
   color: #000000;
   margin-bottom: 27px;
@@ -290,11 +262,7 @@ letter-spacing: 0.02em;
 }
 
 /* footer */
-#footer {
-}
-
 .container-footer {
-  /* height: 64px; */
   padding-left: 24px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -303,9 +271,7 @@ letter-spacing: 0.02em;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  /* text-align: center; */
   letter-spacing: 0.02em;
-
   color: #828282;
 }
 
@@ -373,10 +339,6 @@ letter-spacing: 0.02em;
   line-height: 47px;
   letter-spacing: 0.02em;
 }
-
-/* #content .card-item-3.card-size {
-    margin-top: 30px;
-} */
 }
 
 @media screen and (max-width:999px){
@@ -386,18 +348,10 @@ letter-spacing: 0.02em;
 }
 
 @media screen and (max-width:991px){
-  /* #navbarSupportedContent {
-    margin-right: 41px;
-  } */
-
   button.navbar-toggler {
     margin-right: 41px;
 }
 .mr-donate {
-  /* margin-right: 0;
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 0; */
   width: 120px;
   padding: 12px 10px;
   margin: auto;
@@ -426,10 +380,6 @@ button.navbar-toggler {
   padding-left: 20px;
   padding-top: 17px;
   padding-bottom: 17px;
-}
-
-.mr-donate {
-  /* margin-right: 67px; */
 }
 
 #banner {
@@ -535,7 +485,6 @@ button.navbar-toggler {
 }
 
 .container-footer {
-    /* height: 64px; */
     padding-left: 16px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -543,11 +492,7 @@ button.navbar-toggler {
     font-weight: normal;
     font-size: 10px;
     line-height: 12px;
-    /* identical to box height */
-
-    /* text-align: center; */
     letter-spacing: 0.02em;
-
     color: #828282;
 }
 }
@@ -625,13 +570,11 @@ button.navbar-toggler {
 @keyframes transitionRight {
   from {
     opacity: 0;
-    /* transform: rotateX(-100deg); */
     transform: translate(-110px,0);
   }
 
   to {
     opacity: 1;
-    /* transform: rotateX(0); */
     transform: translate(0,0);
   }
 }
@@ -639,13 +582,11 @@ button.navbar-toggler {
 @keyframes transitionLeft {
   from {
     opacity: 0;
-    /* transform: rotateX(-100deg); */
     transform: translate(110px,0);
   }
 
   to {
     opacity: 1;
-    /* transform: rotateX(0); */
     transform: translate(0,0);
   }
 }
