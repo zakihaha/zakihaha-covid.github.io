@@ -51,7 +51,7 @@ p {
 }
 
 .navbar-link {
-  color: #000000;
+  color: #000000!important;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -64,12 +64,12 @@ p {
   /* padding: .5rem 1rem; */
   padding-left: 30px;
   padding-right: 30px;
-  display: block;
+  display: block!important;
 }
 
 .navbar-link:hover {
   text-decoration: none;
-  color: #9a9a9a;
+  color: #9a9a9a!important;
 }
 
 .btn-navbar {
@@ -99,14 +99,15 @@ p {
 }
 
 .btn-navbar:hover{
-  color: #3DB5E2;
+  color: #3DB5E2!important;
   background-color: #fff;
   border-color: #3DB5E2;
 
 }
 
-.mr-111 {
+.mr-donate {
   margin-right: 111px;
+  color: #FFF!important;
 }
 
 /* banner */
@@ -320,7 +321,7 @@ letter-spacing: 0.02em;
   padding-bottom: 17px;
 }
 
-.mr-111 {
+.mr-donate {
   margin-right: 67px;
 }
 
@@ -384,19 +385,30 @@ letter-spacing: 0.02em;
   }
 }
 
-@media screen and (max-width:992px){
-  #navbarSupportedContent {
-    display: none!important;
-  }
+@media screen and (max-width:991px){
+  /* #navbarSupportedContent {
+    margin-right: 41px;
+  } */
 
   button.navbar-toggler {
-    display: none;
+    margin-right: 41px;
+}
+.mr-donate {
+  /* margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0; */
+  width: 120px;
+  padding: 12px 10px;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 }
 
 @media screen and (max-width:944px){
 #content .card-item-3.card-size {
-    margin-top: 30px;
+    margin-top: 56.82px;
 }
 }
 
@@ -406,14 +418,18 @@ letter-spacing: 0.02em;
     padding-left: 20px;
 }
 
+button.navbar-toggler {
+  margin-right: 20px;
+}
+
 .navbar-logo {
   padding-left: 20px;
   padding-top: 17px;
   padding-bottom: 17px;
 }
 
-.mr-111 {
-  margin-right: 67px;
+.mr-donate {
+  /* margin-right: 67px; */
 }
 
 #banner {
@@ -439,7 +455,7 @@ letter-spacing: 0.02em;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 16px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 56px;
@@ -462,7 +478,7 @@ letter-spacing: 0.02em;
 }
 
 #content .title-content {
-  margin-top: 56.7px;
+  margin-top: 56.37px;
   margin-bottom: 32px;
   font-weight: bold;
   font-size: 28px;
